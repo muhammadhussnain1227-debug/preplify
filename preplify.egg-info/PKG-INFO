@@ -1,0 +1,94 @@
+Metadata-Version: 2.4
+Name: preplify
+Version: 1.0.0
+Summary: Modular, professional Python library for tabular data preprocessing with auto ML-ready pipelines.
+Home-page: https://github.com/yourusername/preplify
+Author: Muhammad Hussnain
+Author-email: muhammadhussnain1227@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=1.3.0
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: scikit-learn>=1.0.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Preplify
+
+**Preplify** is a modular, professional Python library for tabular data preprocessing — from raw data to ML-ready in one line.
+
+## Installation
+
+```bash
+pip install preplify
+```
+
+Or install locally:
+
+```bash
+git clone https://github.com/yourusername/preplify
+cd preplify
+pip install -e .
+```
+
+## Quick Start
+
+```python
+from preplify import auto_prep, load_sample_classification
+
+df = load_sample_classification()
+df_clean = auto_prep(df)
+```
+
+## Pipeline
+
+```python
+from preplify import PreplifyPipeline
+
+pipe = PreplifyPipeline(
+    missing_strategy="median",
+    encoding="onehot",
+    scaling="robust",
+    outlier_method="iqr",
+    feature_engineering=True
+)
+df_clean = pipe.fit_transform(df)
+```
+
+## AutoML
+
+```python
+from preplify import automl_prep
+
+X, model, score = automl_prep(df, target="target", task="classification")
+print(f"Accuracy: {score:.4f}")
+```
+
+## Features
+
+- **Cleaning**: remove duplicates, empty rows, standardize column names
+- **Missing values**: mean/median/mode/drop/constant strategies
+- **Outliers**: IQR and Z-score based removal
+- **Encoding**: one-hot and label encoding
+- **Scaling**: standard, min-max, robust
+- **Transformation**: log and power transforms
+- **Feature engineering**: interaction, ratio, and datetime features
+- **Feature selection**: correlation filter, variance filter, importance selector
+- **Dimensionality reduction**: PCA
+- **Profiling**: data report and summary statistics
+- **Recommender**: automatic preprocessing suggestions
+- **AutoML**: auto preprocessing + baseline model in one line
