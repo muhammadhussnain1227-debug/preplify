@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="preplify",
-    version="1.0.1",
+    version="1.0.2",
     packages=find_packages(),
     description="Modular, professional Python library for tabular data preprocessing with auto ML-ready pipelines.",
     long_description=open("README.md", encoding="utf-8").read(),
