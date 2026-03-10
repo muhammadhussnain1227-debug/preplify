@@ -10,7 +10,6 @@ setup(
     author="Muhammad Hussnain",
     author_email="muhammadhussnain1227@gmail.com",
     url="https://github.com/yourusername/preplify",
-    packages=find_packages(),
     install_requires=[
         "pandas>=1.3.0",
         "numpy>=1.21.0",

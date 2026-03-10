@@ -8,7 +8,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-1.0.1-orange?style=for-the-badge)](https://github.com/yourusername/preplify)
+[![Version](https://img.shields.io/badge/Version-1.0.0-orange?style=for-the-badge)](https://github.com/yourusername/preplify)
 [![sklearn](https://img.shields.io/badge/sklearn-compatible-red?style=for-the-badge&logo=scikit-learn)](https://scikit-learn.org)
 
 ```python
@@ -51,7 +51,7 @@ df_clean = auto_prep(df)
 ## ⚡ Installation
 
 ```bash
-pip install -preplify .
+pip install -e .
 ```
 
 **Requirements:**
@@ -366,7 +366,9 @@ MIT License — free to use, modify, and distribute.
 
 **Muhammad Hussnain**
 - 📧 muhammadhussnain1227@gmail.com
-- 🐙 [GitHub](https://github.com/yourusername/preplify)
+- ⭐ [GitHub Repo](https://github.com/muhammadhussnain1227-debug/preplify?tab=readme-ov-file)
+- 🐙 [GitHub Profile](https://github.com/muhammadhussnain1227-debug)
+- 💼 [Linkedin Profile](www.linkedin.com/in/muhammad-hussnain-28861537a)
 
 ---
 
