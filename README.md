@@ -85,8 +85,10 @@ _ = recommend_preprocessing(df)   # get smart suggestions
 _ = data_report(df)                # full data overview
 ```
 
-![Preplify](Processing Recommendations.png)
-![Preplify](Data Report.png)
+<div align="center">
+  <img src="Data%20Report.png" width="700"/>
+  <img src="Processing%20Recommendations.png" width="700"/>
+</div>
 
 ### Train a Baseline Model Instantly
 ```python
