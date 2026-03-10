@@ -16,9 +16,7 @@
 df_clean = auto_prep(df)
 ```
 
-<div align="center">
-  <img src="Before%20vs%20After.png" width="700"/>
-</div>
+![Before vs After](Before%20vs%20After.png)
 
 ---
 
