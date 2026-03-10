@@ -1,32 +1,3 @@
-Metadata-Version: 2.4
-Name: preplify
-Version: 1.0.0
-Summary: Modular, professional Python library for tabular data preprocessing with auto ML-ready pipelines.
-Home-page: https://github.com/yourusername/preplify
-Author: Muhammad Hussnain
-Author-email: muhammadhussnain1227@gmail.com
-Classifier: Programming Language :: Python :: 3
-Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: OS Independent
-Classifier: Topic :: Software Development :: Libraries
-Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
-Requires-Python: >=3.8
-Description-Content-Type: text/markdown
-License-File: LICENSE
-Requires-Dist: pandas>=1.3.0
-Requires-Dist: numpy>=1.21.0
-Requires-Dist: scikit-learn>=1.0.0
-Dynamic: author
-Dynamic: author-email
-Dynamic: classifier
-Dynamic: description
-Dynamic: description-content-type
-Dynamic: home-page
-Dynamic: license-file
-Dynamic: requires-dist
-Dynamic: requires-python
-Dynamic: summary
-
 <div align="center">
 
 # 🚀 Preplify
@@ -395,7 +366,9 @@ MIT License — free to use, modify, and distribute.
 
 **Muhammad Hussnain**
 - 📧 muhammadhussnain1227@gmail.com
-- 🐙 [GitHub](https://github.com/yourusername/preplify)
+- ⭐ [GitHub Repo](https://github.com/muhammadhussnain1227-debug/preplify?tab=readme-ov-file)
+- 🐙 [GitHub Profile](https://github.com/muhammadhussnain1227-debug)
+- 💼 [Linkedin Profile](www.linkedin.com/in/muhammad-hussnain-28861537a)
 
 ---
 
