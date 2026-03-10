@@ -16,6 +16,8 @@
 df_clean = auto_prep(df)
 ```
 
+![Preplify](Before vs After.png)
+
 </div>
 
 ---
@@ -82,6 +84,9 @@ from preplify import recommend_preprocessing, data_report
 _ = recommend_preprocessing(df)   # get smart suggestions
 _ = data_report(df)                # full data overview
 ```
+
+![Preplify](Processing Recommendations.png)
+![Preplify](Data Report.png)
 
 ### Train a Baseline Model Instantly
 ```python
