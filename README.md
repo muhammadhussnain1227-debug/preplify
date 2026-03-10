@@ -368,7 +368,7 @@ MIT License — free to use, modify, and distribute.
 - 📧 muhammadhussnain1227@gmail.com
 - ⭐ [GitHub Repo](https://github.com/muhammadhussnain1227-debug/preplify?tab=readme-ov-file)
 - 🐙 [GitHub Profile](https://github.com/muhammadhussnain1227-debug)
-- 💼 [Linkedin Profile](www.linkedin.com/in/muhammad-hussnain-28861537a)
+- 💼 [Linkedin Profile](https://www.linkedin.com/in/muhammad-hussnain-28861537a/)
 
 ---
 
