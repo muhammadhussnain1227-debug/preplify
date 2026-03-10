@@ -1,3 +1,5 @@
+<div align="center">
+
 # 🚀 Preplify
 
 ### The Last Preprocessing Library You'll Ever Need
@@ -6,7 +8,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-1.0.2-orange?style=for-the-badge)](https://github.com/muhammadhussnain1227-debug/preplify)
+[![Version](https://img.shields.io/badge/Version-1.0.2-orange?style=for-the-badge)](https://github.com/yourusername/preplify)
 [![sklearn](https://img.shields.io/badge/sklearn-compatible-red?style=for-the-badge&logo=scikit-learn)](https://scikit-learn.org)
 
 ```python
@@ -14,9 +16,7 @@
 df_clean = auto_prep(df)
 ```
 
-<div align="center">
-  <img src="Before%20vs%20After.png" width="700"/>
-</div>
+![Before vs After](Before%20vs%20After.png)
 
 ---
 
@@ -51,7 +51,7 @@ df_clean = auto_prep(df)
 ## ⚡ Installation
 
 ```bash
-pip install preplify
+pip install -e .
 ```
 
 **Requirements:**
@@ -140,10 +140,10 @@ df = remove_empty_rows(df)     # drop fully empty rows
 ```python
 from preplify import handle_missing
 
-df = handle_missing(df, strategy="mean")                    # fill with average
-df = handle_missing(df, strategy="median")                  # fill with middle value
-df = handle_missing(df, strategy="mode")                    # fill with most frequent
-df = handle_missing(df, strategy="drop")                    # drop rows with missing
+df = handle_missing(df, strategy="mean")              # fill with average
+df = handle_missing(df, strategy="median")            # fill with middle value
+df = handle_missing(df, strategy="mode")              # fill with most frequent
+df = handle_missing(df, strategy="drop")              # drop rows with missing
 df = handle_missing(df, strategy="constant", fill_value=0)  # fill with 0
 ```
 
@@ -218,9 +218,9 @@ df = extract_date_features(df, date_columns=["date"])  # year, month, day, weekd
 ```python
 from preplify import correlation_filter, variance_filter, importance_selector
 
-df = correlation_filter(df, threshold=0.9)  # drop columns that are 90%+ similar
-df = variance_filter(df, threshold=0.01)    # drop near-constant columns
-X  = importance_selector(X, y, top_n=10)   # keep top 10 by Random Forest importance
+df = correlation_filter(df, threshold=0.9)   # drop columns that are 90%+ similar
+df = variance_filter(df, threshold=0.01)     # drop near-constant columns
+X  = importance_selector(X, y, top_n=10)    # keep top 10 by Random Forest importance
 ```
 
 ---
@@ -371,10 +371,14 @@ MIT License — free to use, modify, and distribute.
 
 **Muhammad Hussnain**
 - 📧 muhammadhussnain1227@gmail.com
-- ⭐ [GitHub Repo](https://github.com/muhammadhussnain1227-debug/preplify)
+- ⭐ [GitHub Repo](https://github.com/muhammadhussnain1227-debug/preplify?tab=readme-ov-file)
 - 🐙 [GitHub Profile](https://github.com/muhammadhussnain1227-debug)
-- 💼 [LinkedIn Profile](https://www.linkedin.com/in/muhammad-hussnain-28861537a/)
+- 💼 [Linkedin Profile](https://www.linkedin.com/in/muhammad-hussnain-28861537a/)
 
 ---
 
+<div align="center">
+
 **If Preplify saved you time, give it a ⭐ on GitHub!**
+
+</div>
