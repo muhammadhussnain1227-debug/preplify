@@ -8,7 +8,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-1.0.2-orange?style=for-the-badge)](https://github.com/muhammadhussnain1227-debug/preplify)
+[![Version](https://img.shields.io/badge/Version-1.0.3-orange?style=for-the-badge)](https://github.com/muhammadhussnain1227-debug/preplify)
 [![sklearn](https://img.shields.io/badge/sklearn-compatible-red?style=for-the-badge&logo=scikit-learn)](https://scikit-learn.org)
 
 ```python
