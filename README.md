@@ -16,8 +16,6 @@
 df_clean = auto_prep(df)
 ```
 
-<img src="Before%20vs%20After.png" width="750"/>
-
 </div>
 
 ---
@@ -85,8 +83,6 @@ _ = recommend_preprocessing(df)   # get smart suggestions
 _ = data_report(df)                # full data overview
 ```
 
-<img src="Data%20Report.png" width="750"/>
-<img src="Processing%20Recommendations.png" width="750"/>
 
 ### Train a Baseline Model Instantly
 ```python
